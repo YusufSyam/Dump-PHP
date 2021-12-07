@@ -1,0 +1,81 @@
+body{
+	font-family: arial, helvetica;
+	font-size: 14px;
+	max-width: 600px;
+	margin: 15px auto;
+	border: 5px solid #0af04b;
+	border-radius: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+*{
+	text-align: center;
+}
+
+.container{
+	margin-top: 10px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.isi{
+	display: flex;
+	flex-direction: column;
+	margin: 14px;
+}
+
+.isi label{
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	margin: 15px;
+}
+
+.isi input{
+	padding: 8px ;
+	font-size: 16px;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 260px;
+	border:none;
+	border-left: 3px solid #0af04b;
+	border-bottom: 1px solid black;
+}
+
+form .tombol{
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+	margin-bottom: 15px;
+}
+
+form .tombol button{
+	cursor: pointer;
+	background-color: #0af04b;
+	font-size: 16px;
+	padding: 6px 16px;
+	border: none;
+	border: 1px solid transparent;
+	border-radius: 40px;
+	margin: 0 40px;
+	transition: 300ms ease;
+}
+
+form button:hover{
+	border: 1px solid rgb(230,230,230);
+}
+
+.footer{
+	margin-bottom: 30px
+}
+
+.footer a{
+	color: blue;
+	text-decoration: none;
+}
