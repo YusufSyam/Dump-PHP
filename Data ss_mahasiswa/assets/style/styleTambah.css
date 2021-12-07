@@ -1,0 +1,57 @@
+body{
+	font-family: arial, helvetica;
+	font-size: 14px;
+	max-width: 600px;
+	margin: 20px auto;
+	border: 5px solid #0af04b;
+	border-radius: 100px
+}
+
+*{
+	text-align: center;
+}
+
+.form{
+	display: block;
+	margin-top: 30px;
+}
+
+.isi{
+	margin: 10px 20px;
+}
+
+label{
+	display: inline-block;
+	width: 150px;
+	font-size: 16px;
+	text-align: left;
+}
+
+.isi input{
+	margin-left: 10px;
+	padding: 5px;
+	font-size: 14px;
+	text-align: left;
+}
+
+form .tombol{
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+}
+
+form .tombol button{
+	cursor: pointer;
+	background-color: #0af04b;
+	font-size: 16px;
+	padding: 6px 16px;
+	border: none;
+	border: 1px solid transparent;
+	border-radius: 40px;
+	margin: 0 40px;
+	transition: 300ms ease;
+}
+
+form button:hover{
+	border: 1px solid rgb(230,230,230);
+}
